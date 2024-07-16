@@ -1,4 +1,4 @@
-##Example data
+## Example data
 `case.bam`, `case.bam.bai`,  `control.bam`,  `control.bam.bai`
 
 ## Expected results

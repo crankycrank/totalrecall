@@ -13,7 +13,7 @@ Pre-built Docker images are provided on Dockerhub:
 
 `docker pull crankycrank/totalrecall:tcga-paper` for TCGA data
 
-Instruction to reproduce the build of these Docker images are provided below.
+Instruction to reproduce the build of these Docker images if one wishes to do so are provided below.
 
 ### Building Docker image
 Clone the repository, from the main directory of the repository run
