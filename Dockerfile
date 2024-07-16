@@ -1,4 +1,4 @@
-FROM debian:bullseye as source
+FROM debian:bullseye AS source
 
 # install required packages from repositories
 #RUN sed -i -e "s/ main[[:space:]]*\$/ main contrib non-free/" /etc/apt/sources.list
@@ -30,13 +30,13 @@ FROM scratch
 COPY --from=source / /
 
 # environment variables
-ENV LANG C.UTF-8
-ENV LC_ALL C.UTF-8
-ENV LC_COLLATE C
-ENV TERM xterm
+ENV LANG=C.UTF-8
+ENV LC_ALL=C.UTF-8
+ENV LC_COLLATE=C
+ENV TERM=xterm
 
 # default directory
 WORKDIR /
 
 # default interactive shell
-CMD /bin/bash
+CMD ["/bin/bash"]

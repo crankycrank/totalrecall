@@ -131,7 +131,6 @@
 ##ALT=<ID=INS:ME:SVA,Description="Insertion of SVA element">
 ##ALT=<ID=INS:ME:RV,Description="Insertion of a retroviral element">
 ##FILTER=<ID=CONTROL.CLIPPED.READ,Description="Matching clipped read in the control">
-##FILTER=<ID=CLIPPED.CLUSTERS,Description="Too many clusters of clipped reads in the vicinity">
 ##FILTER=<ID=LOW_COMPLEXITY,Description="TODO">
 ##FILTER=<ID=LOW_FRAC_OF_DEPTH,Description="Number of clipped reads is a small fraction of total depth">
 #CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
