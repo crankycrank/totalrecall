@@ -5,13 +5,17 @@ TotalReCall is installed as a Python package either calling `setup.py` or using 
 modules are then used by the Snakemake workflow.
 
 It is recommended to use Docker to run it.
-Provided Dockerfile bundles the code and the data (transposon references, genome sequence)together.
+Provided Dockerfile bundles the code and the data (transposon references, genome sequence) together.
 
 Pre-built Docker images are provided on Dockerhub:
 
 `docker pull crankycrank/totalrecall:demo-hg19` for the demo data (see `demo/` subdirectory in this repository)
 
 `docker pull crankycrank/totalrecall:tcga-paper` for TCGA data
+
+Typical install time: 5-10 minutes for the Docker engine and 5 minutes to pull the needed Docker image.
+Docker engine runs on Linux, MacOS, Windows 10, Windows 11. If using MacOS, provided Docker image needs to be run in x86_64
+compatibility mode. Provided Docker image uses Debian 11 as the base.
 
 Instruction to reproduce the build of these Docker images if one wishes to do so are provided below.
 

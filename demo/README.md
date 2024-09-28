@@ -14,6 +14,7 @@ where `/path/to/workdir` should be replaced with the full path to the directory 
 ```
 LC_ALL=C snakemake -j 1 -s /opt/totalrecall/Snakefile -p results.tgz
 ```
+Expected run time on a "normal" desktop computer: 5 minutes.
 
 ### Using Singularity/Apptainer
 Alternatively, Docker image can be converted to a Singularity image:
